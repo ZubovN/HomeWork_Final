@@ -24,12 +24,12 @@ class PhoneBook {
 
     public static void main(String[] args) {
         PhoneBook phoneBook = new PhoneBook();
-        phoneBook.addPhoneNumber("Peter", "00001");
-        phoneBook.addPhoneNumber("Alice", "12345");
-        phoneBook.addPhoneNumber("Bob", "23456");
-        phoneBook.addPhoneNumber("Bob", "23456324");
-        phoneBook.addPhoneNumber("Bob", "23456234");
-        phoneBook.addPhoneNumber("Alice", "34567");
+        phoneBook.addPhoneNumber("Peter", "00301");
+        phoneBook.addPhoneNumber("Alice", "12645");
+        phoneBook.addPhoneNumber("Bob", "23756");
+        phoneBook.addPhoneNumber("Bob", "23756324");
+        phoneBook.addPhoneNumber("Bob", "23258234");
+        phoneBook.addPhoneNumber("Alice", "34561");
 
         for (Map.Entry<String, Set<String>> entry : phoneBook.getSortedPhoneBook()) {
             System.out.println(entry.getKey() + ": " + entry.getValue() + "\n");
