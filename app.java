@@ -32,8 +32,8 @@ class PhoneBook {
         phoneBook.addPhoneNumber("Alice", "34567");
 
         for (Map.Entry<String, Set<String>> entry : phoneBook.getSortedPhoneBook()) {
-    System.out.println(entry.getKey() + ": " + entry.getValue() + "\n");
-}
+            System.out.println(entry.getKey() + ": " + entry.getValue() + "\n");
+        }
 
     }
 }
